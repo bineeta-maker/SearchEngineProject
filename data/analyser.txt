@@ -1,0 +1,108 @@
+
+Standard analyser
+
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 6 5
+QUERY --: A 46-year-old woman with sweaty hands, exophthalmia, and weight loss despite increased eating.
+PARSED QUERY --: DETAILS:a DETAILS:46 DETAILS:year DETAILS:old DETAILS:woman DETAILS:with DETAILS:sweaty DETAILS:hands DETAILS:exophthalmia DETAILS:and DETAILS:weight DETAILS:loss DETAILS:despite DETAILS:increased DETAILS:eating
+TOTAL NUMBER OF HITS --: 5
+
+PMCID   SCORE
+3603068 17.390594
+3651286 15.204815
+2661247 13.975829
+503388  13.831419
+3323388 13.493815
+
+SEARCH PROCESS COMPLETE.
+
+
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 7 10
+QUERY --: A 22 year old female presents with changes in appetite and sleeping, fatigue, diminished ability to think or concentrate, anhedonia and feelings of guilt.
+PARSED QUERY --: DETAILS:a DETAILS:22 DETAILS:year DETAILS:old DETAILS:female DETAILS:presents DETAILS:with DETAILS:changes DETAILS:in DETAILS:appetite DETAILS:and DETAILS:sleeping DETAILS:fatigue DETAILS:diminished DETAILS:ability DETAILS:to DETAILS:think DETAILS:or DETAILS:concentrate DETAILS:anhedonia DETAILS:and DETAILS:feelings DETAILS:of DETAILS:guilt
+TOTAL NUMBER OF HITS --: 10
+
+PMCID   SCORE
+3642018 20.097036
+3296346 18.854803
+3809277 18.67762
+3748539 17.870234
+2246136 17.80086
+3846567 17.51038
+3687846 16.859858
+3333787 16.733719
+3654321 16.57776
+3263557 16.400877
+
+
+SEARCH PROCESS COMPLETE.
+
+
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 18 2
+QUERY --: A 65-year-old African-American male with progressive dyspnea on exertion and while lying flat; bilateral pitting lower-extremity edema. The lungs revealed bilateral basilar crackles.
+PARSED QUERY --: DETAILS:a DETAILS:65 DETAILS:year DETAILS:old DETAILS:african DETAILS:american DETAILS:male DETAILS:with DETAILS:progressive DETAILS:dyspnea DETAILS:on DETAILS:exertion DETAILS:and DETAILS:while DETAILS:lying DETAILS:flat DETAILS:bilateral DETAILS:pitting DETAILS:lower DETAILS:extremity DETAILS:edema DETAILS:the DETAILS:lungs DETAILS:revealed DETAILS:bilateral DETAILS:basilar DETAILS:crackles
+TOTAL NUMBER OF HITS --: 2
+
+PMCID   SCORE
+3622346 35.45409
+3523894 32.104298
+
+SEARCH PROCESS COMPLETE.
+
+***********************************************************************************************************************************************************************************************
+
+STOP Analyser
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 6 5
+[standard]
+QUERY --: A 46-year-old woman with sweaty hands, exophthalmia, and weight loss despite increased eating.
+PARSED QUERY --: DETAILS:year DETAILS:old DETAILS:woman DETAILS:sweaty DETAILS:hands DETAILS:exophthalmia DETAILS:weight DETAILS:loss DETAILS:despite DETAILS:increased DETAILS:eating
+TOTAL NUMBER OF HITS --: 5
+
+PMCID   SCORE
+3603068 14.887746
+503388  13.690839
+3651286 13.258342
+3590952 12.888078
+3606595 12.380029
+
+SEARCH PROCESS COMPLETE.
+
+
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 7 10
+[standard]
+QUERY --: A 22 year old female presents with changes in appetite and sleeping, fatigue, diminished ability to think or concentrate, anhedonia and feelings of guilt.
+PARSED QUERY --: DETAILS:year DETAILS:old DETAILS:female DETAILS:presents DETAILS:changes DETAILS:appetite DETAILS:sleeping DETAILS:fatigue DETAILS:diminished DETAILS:ability DETAILS:think DETAILS:concentrate DETAILS:anhedonia DETAILS:feelings DETAILS:guilt
+TOTAL NUMBER OF HITS --: 10
+
+PMCID   SCORE
+3642018 19.673412
+3809277 18.25583
+3748539 17.459549
+2246136 17.363586
+3296346 17.13138
+3846567 17.10272
+3687846 16.424076
+3333787 16.31739
+3654321 16.146553
+3263557 15.983332
+
+SEARCH PROCESS COMPLETE.
+
+
+D:\GitHub\SearchEngineProject\target>java -jar SearchEngineProject-1.0-SNAPSHOT.jar 18 2
+[standard]
+QUERY --: A 65-year-old African-American male with progressive dyspnea on exertion and while lying flat; bilateral pitting lower-extremity edema. The lungs revealed bilateral basilar crackles.
+PARSED QUERY --: DETAILS:year DETAILS:old DETAILS:african DETAILS:american DETAILS:male DETAILS:progressive DETAILS:dyspnea DETAILS:exertion DETAILS:while DETAILS:lying DETAILS:flat DETAILS:bilateral DETAILS:pitting DETAILS:lower DETAILS:extremity DETAILS:edema DETAILS:lungs DETAILS:revealed DETAILS:bilateral DETAILS:basilar DETAILS:crackles
+TOTAL NUMBER OF HITS --: 2
+
+PMCID   SCORE
+3622346 33.821667
+3523894 31.813196
+
+SEARCH PROCESS COMPLETE.
+
+
+D:\GitHub\SearchEngineProject\target>
+
+
+
+
