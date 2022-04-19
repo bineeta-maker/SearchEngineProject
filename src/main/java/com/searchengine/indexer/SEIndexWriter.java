@@ -35,6 +35,7 @@ public class SEIndexWriter {
                 FSDirectory.open(new File(SEConstants.INDEXDATAPATH).toPath());
         ParquetFileReader reader = null;
         IndexWriterConfig conf = new IndexWriterConfig(analyzer);
+        conf.setSimilarity(new BM25Similarity());
         IndexWriter writer = new IndexWriter(indexDirectory, conf);
 
         //create the indexer
