@@ -35,10 +35,10 @@ def getCorpusData(file):
 
 if __name__ == '__main__':
 
-    #storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-00'
+    storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-00'
     #storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-01'
     #storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-02'
-    storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-03'
+    #storageLink = 'D:\\1.Course_Material\\IR\\searchEngine\\data\\pmc-text-03'
     corpusData = []
 
     print(storageLink)
